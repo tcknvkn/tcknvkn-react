@@ -1,0 +1,76 @@
+{
+  "name": "@tcknvkn/react",
+  "version": "1.0.0",
+  "description": "React için TCKN (TC Kimlik No) ve VKN (Vergi Kimlik No) doğrulama hook/helper kütüphanesi",
+  "author": "TCKNVKN <239645710+tckn-vkn@users.noreply.github.com>",
+  "license": "MIT",
+  "homepage": "https://www.tcknvkn.com/kutuphaneler/react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcknvkn/tcknvkn-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tcknvkn/tcknvkn-react/issues"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "validator",
+    "tckn",
+    "vkn",
+    "tc üret",
+    "tc uret",
+    "tc no üret",
+    "tc no uret",
+    "tc oluştur",
+    "vkn üret",
+    "vergi no üret",
+    "vergi no oluşturucu",
+    "vkn algoritması",
+    "vkn doğrulama algoritması"
+  ],
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "rimraf dist out-tsc",
+    "build": "npm run clean && npm run build:cjs && npm run build:esm && npm run build:types",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build:types": "tsc -p tsconfig.types.json",
+    "test": "node --test --import tsx tests/react.test.ts",
+    "pack:dry": "npm pack --dry-run",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0 <21.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "rimraf": "^5.0.7",
+    "tsx": "^4.19.2",
+    "typescript": "~5.4.5"
+  },
+  "engines": {
+    "node": ">=18.19.0"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}

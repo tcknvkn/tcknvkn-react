@@ -1,4 +1,4 @@
-﻿# Testler
+# Testler
 
 Bu klasör, `@tcknvkn/react` kütüphanesinin birim testlerini içerir.
 

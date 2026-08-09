@@ -1,3 +1,3 @@
-﻿repository=tcknvkn-react
+repository=tcknvkn-react
 description=React için TCKN (TC Kimlik No) ve VKN (Vergi Kimlik No) doğrulama kütüphanesi
 homepage=https://www.tcknvkn.com/kutuphaneler/react

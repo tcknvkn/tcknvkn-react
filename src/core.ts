@@ -1,4 +1,4 @@
-﻿/**
+/**
  * TCKNVKN React çekirdeği: TCKN ve VKN doğrulama fonksiyonları.
  * Oluşturulma tarihi: 2026-04-24
  * Lisans: MIT

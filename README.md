@@ -1,4 +1,4 @@
-﻿# @tcknvkn/react
+# @tcknvkn/react
 
 `@tcknvkn/react`, React projelerinde **TCKN (TC Kimlik No)** ve **VKN (Vergi Kimlik No)** doğrulama işlemleri için hook ve helper API sunar.
 

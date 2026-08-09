@@ -1,4 +1,4 @@
-﻿# Örnekler
+# Örnekler
 
 Bu klasör, `@tcknvkn/react` için örnek kullanım notlarını içerir.
 

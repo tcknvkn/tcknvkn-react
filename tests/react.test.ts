@@ -1,4 +1,4 @@
-﻿/**
+/**
  * TCKNVKN React birim testleri.
  * Oluşturulma tarihi: 2026-04-24
  * Lisans: MIT

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * TCKNVKN React dışa aktarımları: hook ve helper API.
  * Oluşturulma tarihi: 2026-04-24
  * Lisans: MIT
